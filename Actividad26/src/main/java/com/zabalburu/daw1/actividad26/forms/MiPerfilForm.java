@@ -125,7 +125,7 @@ public class MiPerfilForm extends JFrame {
         // Centra la ventana en la pantalla
         this.setLocationRelativeTo(null);
         // Define que cerrar la ventana termine la aplicación
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         // Hace visible la ventana
         this.setVisible(true);
     }
